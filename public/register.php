@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="password-repeat">Check password:</label>
+                    <label for="password-repeat">Check Password:</label>
                     <input type="password" name="password-repeat" class="form-control" placeholder="check password" id="password-repeat" required data-validation-required-message="password check required">
                     <p class="help-block text-danger"></p>
                 </div>
