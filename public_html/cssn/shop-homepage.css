@@ -172,3 +172,7 @@ transform: scale(1.05,1.05);
 h1.m {
   padding-top: 2%;
 }
+
+figcaption {
+    font-size: 25px;
+}

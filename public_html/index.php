@@ -22,24 +22,39 @@ include(TEMPLATE_FRONT . DS . "header.php")
 
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <a   href="item.php?id=48">
-                            <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/dell.png" alt="First slide">
-                            Dell XPS 15 15.6" 4K Ultra HD Laptop
+                        <a href="item.php?id=48">
+                            <figure>
+                                <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/dell.png" alt="First slide">
+                                <figcaption>
+                                    Dell XPS 15 15.6" 4K Ultra HD Laptop
+                                </figcaption>
+                            </figure>
                         </a>
                     </div>
-                    <div class="carousel-item">
-                        <a   href="item.php?id=54">
-                            <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/mac2.png" alt="Second slide">
-                            Apple Macbook Air
+
+                    <div class="carousel-item ">
+                        <a href="item.php?id=54">
+                            <figure>
+                                <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/mac2.png" alt="Second slide">
+                                <figcaption>
+                                    Apple Macbook Air 13-inch with Retina display 128GB (Gold)
+                                </figcaption>
+                            </figure>
                         </a>
                     </div>
-                    <div class="carousel-item">
-                        <a   href="item.php?id=46">
+
+                    <div class="carousel-item ">
+                        <a href="item.php?id=46">
+                            <figure>
                             <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/surface.png" alt="Third slide">
+                                <figcaption>
                             Microsoft Surface Studio 2
+                                </figcaption>
+                            </figure>
                         </a>
                     </div>
-                </div>
+
+
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>

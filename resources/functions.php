@@ -1048,7 +1048,7 @@ echo $orders;
 
 function show_recommended()
 {
-$query = query("SELECT * FROM products WHERE product_brand_id IN(SELECT brand_id FROM brands WHERE brand_id IN(SELECT product_brand_id FROM products WHERE product_id IN(SELECT product_id FROM reports WHERE purchaser_id IN(SELECT purchaser_id FROM reports WHERE purchaser_id IN(SELECT user_id FROM users WHERE user_id = " . $_SESSION['useraccount'][3] ."))))) limit 4");
+$query = query("SELECT * FROM products WHERE product_brand_id IN(SELECT brand_id FROM brands WHERE brand_id IN(SELECT product_brand_id FROM products WHERE product_id IN(SELECT product_id FROM reports WHERE purchaser_id IN(SELECT purchaser_id FROM reports WHERE purchaser_id IN(SELECT user_id FROM users WHERE user_id = " . $_SESSION['useraccount'][3] ."))))) limit 3");
 confirm($query);
 
 $queryResult = mysqli_num_rows($query);
