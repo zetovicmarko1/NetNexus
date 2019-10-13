@@ -176,3 +176,8 @@ h1.m {
 figcaption {
     font-size: 25px;
 }
+
+li {
+    display: list-item;
+    margin: auto;
+}
