@@ -18,6 +18,9 @@ include(TEMPLATE_FRONT . DS . "header.php")
 
         <div class="col-lg-9">
             <div class="row">
+                <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" src="resources/uploads/welcome1.png" alt="Welcome" class="logo">
+            </div>
+            <div class="row">
                 <h1>Shop Featured Products</h1>
             </div>
                 <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
@@ -28,7 +31,7 @@ include(TEMPLATE_FRONT . DS . "header.php")
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/dell2.png" alt="First slide">
+                            <img style="display: block; margin-left: auto; margin-right: auto; width: 30%;" class="d-block img-fluid" src="resources/uploads/dell.png" alt="First slide">
                             <h3>Dell Inspiron 3000</h3>
                         </div>
                         <div class="carousel-item">
